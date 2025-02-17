@@ -1,0 +1,82 @@
+/*Using Flexbox (fFrom CIT14) to properly align my sections*/
+
+.Container1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDF8E2;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+ul li {
+    display: inline;
+    padding: 30px;
+}
+
+a {
+    color: #F1642E;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #A3B565;
+}
+
+.Container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+
+.Me {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 1200px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 40px; 
+    padding: 50px; 
+    margin-top: 100px;
+}
+
+.Me img {
+    width: 40%; 
+    max-width: 400px;
+    height: auto;
+}
+
+.Me div {
+    width: 50%; 
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+  
+.Me h1 {
+    color: #F1642E;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Me p {
+    font-size: 18px;
+    color: #333; 
+    line-height: 1.5;
+    margin: 0;
+    color: #A3B565;
+}
